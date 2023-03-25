@@ -1,0 +1,22 @@
+.services {
+    height: 400px;
+
+    .services-con {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1rem;
+        grid-auto-rows: 400px;
+
+        .services-items{
+            text-align: center;
+            align-self: center;
+            border: 2px solid $blue;
+            padding: 1.5rem;
+            h3{
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+                color : $blue;
+            }
+        }
+    }
+}
